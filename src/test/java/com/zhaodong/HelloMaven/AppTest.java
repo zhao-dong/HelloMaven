@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        //assertTrue( true );
+    	App.main(null);
+    	assertEquals(6,new App().sum(1,2,3));
     }
 }
